@@ -1,3 +1,5 @@
+
+
 export class Employee {
   id: number;
   firstname: string;
@@ -10,3 +12,5 @@ export class Employee {
   isActive: boolean;
   photoPath?: string;
 }
+
+
