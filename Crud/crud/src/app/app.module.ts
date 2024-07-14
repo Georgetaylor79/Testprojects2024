@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListEmployeesComponent } from './employee/list-employees/list-employees.component';
 import { CreateEmployeeComponent } from './employee/create-employee/create-employee.component';
+import { RouttingComponent } from './routting/routting.component';
 
 const appRoutes: Routes = [
   { path:'list', component:ListEmployeesComponent },
@@ -21,6 +22,7 @@ const appRoutes: Routes = [
     AppComponent,
     ListEmployeesComponent,
     CreateEmployeeComponent,
+    RouttingComponent,
 
   ],
   imports: [
